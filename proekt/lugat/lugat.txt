@@ -1,0 +1,22 @@
+Hello: Salom
+Apple: Olma
+Bulding: Bino
+Door: Eshik
+Pink: Pushti
+Ball: Koptok
+Write: Yozmoq
+Go: Yurmoq
+Red: Qizil
+Pink: Pushti
+Yellow: Yashil
+Queen: Qirolicha
+King: Qirol
+Pineapple: Ananas
+Phone: Telefon
+Headphone: Quloqchin
+Hand: Qol
+Vodka: Aroq
+Leg: Oyoq
+Sorry: Kechirasz
+Buble: Pufakcha
+Car : Mashina

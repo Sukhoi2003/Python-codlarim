@@ -1,0 +1,12 @@
+try:
+    with open('product_material.txt', 'r') as f:
+        data = f.read()
+except FileNotFoundError:
+    print("Bunday fayl yo'q")
+else:
+    data = data.split('\n')[:-1]
+n = input('Mahsulot nomini kiriting>>> ').capitalize()
+for line in data:
+    line = line.split(',')
+    if line[2] == n and line[-1] == 'true':
+        print(line[0], line[2], line[3])

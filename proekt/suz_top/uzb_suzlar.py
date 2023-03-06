@@ -1,0 +1,2 @@
+suzlar = ["Salom",
+          "Qalesan"]
