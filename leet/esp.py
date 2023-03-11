@@ -1,19 +1,12 @@
-import telebot
-from telegram import *
+head = [1, 0, 1]
 
-bot = telebot.TeleBot('5517340699:AAF3pLYBW3wlELO1k8fC1WghoEa6BP1daPA')
-
-
-@bot.messagehandler(commands=['start'])
-def sendwelcome(message):
-    bot.replyto(message, 'Welcome! How can I help you?')
-
-
-@bot.messagehandler(func=lambda message: True)
-def echoall(message):
-    text = message.text
-    if text == 'Hi':
-        bot.replyto(message, 'Hello!')
-
-
-bot.polling()
+res=''
+while head.next!=None:
+    res+=str(head.val)
+    head=head.next
+res+=str(head.val)
+res=res[::-1]
+s=0
+for i in range(len(res)):
+    s+=int(res[i])*(2**i)
+print(s)

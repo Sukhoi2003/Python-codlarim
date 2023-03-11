@@ -20,3 +20,4 @@ Leg: Oyoq
 Sorry: Kechirasz
 Buble: Pufakcha
 Car : Mashina
+Hend: Qo'l

@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FlapPyBird" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PygameForBeginners" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python_dars" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tic-Tac-Toe" vcs="Git" />
   </component>
 </project>
